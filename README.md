@@ -18,7 +18,7 @@ $ bundle install
 
 ## Usage
 
-For example, say you have the following Rails application:
+For example, say you have the following Ruby on Rails application:
 
 ```
 ├── app
