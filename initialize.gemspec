@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Initialize::VERSION
   spec.authors       = ["Luke Horvat"]
   spec.email         = ["lukehorvat@gmail.com"]
-  spec.summary       = %q{Ruby gem.}
-  spec.description   = %q{Ruby gem.}
+  spec.summary       = %q{Ruby gem to customize the run order of Rails initializers.}
+  spec.description   = %q{Ruby gem to completely customize the execution order of Rails config initializers.}
   spec.homepage      = "https://github.com/lukehorvat/initialize"
   spec.license       = "MIT"
   spec.files         = `git ls-files -z`.split("\x0")
