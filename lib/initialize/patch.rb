@@ -1,3 +1,13 @@
+=begin
+  Monkey-patch the "run" method of Rails::Initializable::Initializer so that it executes
+  initializers in a custom order defined by the user, not alphabetical order.
+
+  Relevant reference files from Rails core:
+  - https://github.com/rails/rails/blob/v4.2.5.2/railties/lib/rails/initializable.rb
+  - https://github.com/rails/rails/blob/v4.2.5.2/railties/lib/rails/engine.rb
+  - https://github.com/rails/rails/blob/v4.2.5.2/railties/lib/rails/application.rb
+=end
+
 module Initialize
   module Patch
     def run(*args)
